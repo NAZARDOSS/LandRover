@@ -1,0 +1,129 @@
+*{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+.navbar-toggler:hover{
+  transform: scale(1.1);
+  background-color: rgba(84, 193, 146, 0.868); ;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #525200;
+}
+
+.d-block{
+  margin: 0 auto;
+  width: 80%!important;
+}
+@media (max-width:992px){
+  .navbar-expand-lg{
+    flex-wrap: nowrap;
+  }
+  
+  
+  button[aria-expanded="true"] {
+    color: red;
+  }
+  .form-control.me-2{
+  width: 120px;
+  }
+  .d-flex{
+    height: 38px;
+    padding-right: 5px;
+  }
+  .navbar-toggler{
+    height: 38px;
+  }
+  .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-width: 200px;
+    background-color: rgba(53, 95, 77, 0.928);
+    color: white;
+  }
+  .offcanvas.hiding, .offcanvas.show, .offcanvas.showing {
+    visibility: visible;
+    width: 300px;
+}
+  
+  
+}
+@media (max-width:560px) {
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    display: none;
+  }
+  img{
+    width: 100%;
+    height: 260px;
+  }
+  .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-width: 200px;
+    background-color: rgba(53, 95, 77, 0.928);
+    color: white;
+  }
+  .btn-close{
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.917);
+    border-radius: 50%;
+  }
+  .navbar-nav .nav-link.active,.nav-link {
+    color: rgb(248 246 246);
+  }
+  .navbar.navbar-expand-lg.bg-body-tertiary {
+    width: 290px;
+  }
+  .form-control.me-2 {
+    width: 136px;
+  }
+  
+  
+
+  .d-flex{
+    height: 35px;
+    position: absolute;
+    margin-left: 80px;
+    margin-bottom: 15px;
+  }
+  .carousel.slide{
+    display: none;
+  }
+}  
+@media(min-width:560px){
+
+
+  .navbar.bg-body-tertiary.fixed-top {
+    display: none;
+  }
+  .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-width: 500px;
+}
+  .btn.btn-outline-success{
+    width: 150px;
+  }
+  .form-control.me-2{
+  width: 400px;
+  }
+  .d-flex{
+    width: 500px;
+  }
+  .main_phone{
+    display: none;
+  }
+
+  img{
+    width: 100%;
+    height: 600px;
+  }
+  .def{
+    height: 300px;
+  }
+  .carousel-item.active{
+    width: 100%;
+  }
+}
+
+
+
+
+/*# sourceMappingURL=style.css.map */
+.navbar.navbar-expand-lg.bg-body-tertiary{
+  padding: 10px;
+}
